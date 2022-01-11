@@ -1,0 +1,23 @@
+ #country{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 10px;
+ }
+ .country{
+     border: 1px solid goldenrod;
+     border-radius: 20px;
+     padding: 20px;
+     text-align: center;
+     width: 400px;
+ }
+ .country-name{
+     font-size: 45px;
+     color: crimson;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .official{
+     color: deeppink;
+     font-size: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
